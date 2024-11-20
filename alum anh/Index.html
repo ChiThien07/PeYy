@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Ảnh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="album">
+        <div class="photo" onclick="openLightbox(0)">
+            <img src="anhpeY/anh1.jpeg" alt="Ảnh 1">
+        </div>
+        <div class="photo" onclick="openLightbox(1)">
+            <img src="anhpeY/anh2.jpeg" alt="Ảnh 2">
+        </div>
+        <div class="photo" onclick="openLightbox(2)">
+            <img src="anhpeY/anh3.jpeg" alt="Ảnh 3">
+        </div>
+        <div class="photo" onclick="openLightbox(3)">
+            <img src="anhpeY/anh4.jpeg" alt="Ảnh 4">
+        </div>
+        <div class="photo" onclick="openLightbox(4)">
+            <img src="anhpeY/anh5.jpeg" alt="Ảnh 5">
+        </div>
+        <div class="photo" onclick="openLightbox(5)">
+            <img src="anhpeY/anh6.jpeg" alt="Ảnh 6">
+        </div>
+        <div class="photo" onclick="openLightbox(6)">
+            <img src="anhpeY/anh7.jpeg" alt="Ảnh 7">
+        </div>
+        <div class="photo" onclick="openLightbox(7)">
+            <img src="anhpeY/anh8.jpeg" alt="Ảnh 8">
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
